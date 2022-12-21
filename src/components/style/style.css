@@ -1,0 +1,123 @@
+
+body {
+    font: 20px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+.inactive {
+    font-weight: normal;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 70px;
+    height: 70px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 70px;
+}
+
+
+
+
+.winningSquares {
+    color: #000;
+    background: rgb(142, 252, 99);
+}
+
+.draw {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: #e84e4e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.win {
+    text-align: center;
+}
+
+.reset {
+    text-align: center;
+    padding: 5px;
+}
+
+.game {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 10%;
+
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+.active {
+    border: none;
+    color: black;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.game-info {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+@media (max-width: 600px) {
+    .game{
+        flex-direction: column;
+    }
+    .loading-text{
+        flex-direction: column;
+    }
+    @keyframes expand {
+        from {width: 0;}
+        to {width: 30vmax;}
+    }
+}
+
+.App-logo {
+    height: 30%;
+    pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
+    margin: 0 auto;
+
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
