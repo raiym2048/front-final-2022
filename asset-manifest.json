@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/front-final-2022/static/css/main.4d6b014d.css",
+    "main.js": "/front-final-2022/static/js/main.0d7f60c0.js",
+    "static/media/img.png": "/front-final-2022/static/media/img.76903a1c50ca99ac5913.png",
+    "index.html": "/front-final-2022/index.html",
+    "main.4d6b014d.css.map": "/front-final-2022/static/css/main.4d6b014d.css.map",
+    "main.0d7f60c0.js.map": "/front-final-2022/static/js/main.0d7f60c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d6b014d.css",
+    "static/js/main.0d7f60c0.js"
+  ]
+}
